@@ -1,73 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>maheshbingi.github.io by maheshbingi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Mahesh Bingi">
+    <meta name="author" content="Your name">
+    <title>Mahesh Bingi</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!-- Font awesome - iconic font with IE7 support --> 
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome-ie7.css" rel="stylesheet">
+    <!-- Bootbusiness theme -->
+    <link href="css/style.css" rel="stylesheet">
+	
+		 <!-- Fav and touch icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144-precomposed.png">
+ 	 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114-precomposed.png">
+ 	 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72-precomposed.png">
+ 	 <link rel="apple-touch-icon-precomposed" href="../img/apple-touch-icon-57-precomposed.png">
+ 	 <link rel="shortcut icon" href="../img/favicon.png">
+	 
+	 
   </head>
-
   <body>
-    <div id="container">
-      <div class="inner">
+    <!-- Start: HEADER -->
+    <header>
+      <!-- Start: Navigation wrapper -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a href="index.html" class="brand label-name">Mahesh Bingi</a>
+            <!-- Below button used for responsive navigation -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Start: Primary navigation -->
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
 
-        <header>
-          <h1>maheshbingi.github.io</h1>
-          <h2></h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/maheshbingi" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <footer>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
+                <li><a href="#">About</a></li>
+				        <li><a href="education.html">Education</a></li>
+                <li><a href="work_exp.html">Work Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Navigation wrapper -->   
+    </header>
+    <!-- End: HEADER -->
+    <!-- Start: MAIN CONTENT -->
+    <div class="content">
+      <div class="container">
+        <article class="article">
+          <div class="row">
+            <div class="span10 offset1">            
+              <div class="row bottom-space">
+                <div class="span3 center-align">
+                  <img src="./img/profile.JPG" class="thumbnail">
+                </div>
+                <div class="span7">
+				          <p class="header-para">
+                     If I there were to exist a perfect world, it would still be incomplete for me without Technology, Travel and Music.
+                     <br>
+                     <br> 
+                     A Software Engineering Graduate Student at San Jose State University, I am fascinated by application of technology combined with fundamentals of management to simplify and solve problems creatively. I am always on a quest - to gather knowledge and to grow as a human being every single day.<br><br> When I am not coding you can spot me at my favorite hilltop and playing guitar to create a perfect harmony with sights & sounds of nature.
+                     <br>
+                     <br>
+                     Random stuff about me
+                  </p>
+				          <p>
+                    <ul class="header-para">
+                       <li>
+  					             	I love eating Nutella
+                       </li>
+                       <li>
+                          I want to grow my hair like kirk hammett has
+                       </li>
+  					             <li>
+  						            I wish to visit North east and leh-ladakh in India at-least once in my lifetime
+                        </li>	 
+  					           <li>
+  				            		I wear Humor on my sleeves ;)
+                       </li> 
+                       <li>
+                          I take pride in sharing at least one thing in common with Mark Zuckerberg - Flaunting Sweatshirts
+                       </li>
+                    <ul>
+                  </p>
+                </div>
+              </div>                        
+            </div>
+          </div>
+        <article>
       </div>
     </div>
+    <!-- End: MAIN CONTENT -->
+    <!-- Start: FOOTER -->
+					<footer>
+				<div class="container">
+						<div class="row pull-left">
+							<p class="sansserif">
+								<small>Copyright &copy; 2014 Mahesh Bingi. All Rights Reserved.
+							</p>
+						</div>
+					<div class="row pull-right">						
+							<div id="social-icons">
+								<a href="http://www.linkedin.com/in/maheshbingi"><img src="img/linkedin_32.png" width="32" height="32" alt="LinkedIn" /></a>							
+								<a href="https://twitter.com/maheshbingi"><img src="img/twitter_32.png" width="32" height="32" alt="Twitter" /></a>
+								<a href="https://www.facebook.com/maheshbingi"><img src="img/facebook_32.png" width="32" height="32" alt="Facebook" /></a>
+								<a href="https://plus.google.com/115570236504403235909/posts"><img src="img/google_buzz_32.png" width="32" height="32" alt="Google Plus" /></a>			
+								<a href="https://angel.co/maheshbingi"><img src="img/angellist-icon.png" width="32" height="32" alt="AngelList" /></a>
+								
+							</div>
+						
+					</div>
+				</div>
+			</footer>
+			
+	<!--Google Analytics-->
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45608333-1', 'maheshbingi.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- End: FOOTER -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/boot-business.js"></script>
   </body>
 </html>
